@@ -1,0 +1,42 @@
+
+        
+        h2 {
+          margin-top: 0;
+        }
+        
+        .card1 {
+          padding: 40px;
+          background: #fff;
+          max-width: 360px;
+          border-radius: 20px;
+          margin: 60px auto;
+        }
+        
+        
+        .shadow5 { 
+          box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+        }
+        .hader{
+          display:flex;
+          font-size:20px;
+          justify-content:space-between;
+}
+.hader  h6 {
+          font-size:14px;
+          font-weight:600;
+}
+.haderbody{
+          display:flex;
+          margin-top:10px;
+          justify-content:space-between;
+}
+.haderbody h6{
+  font-size: 16px;
+}
+.btn{
+            font-size:10px;
+            
+}
+.footer{
+          margin-top:10px;
+}

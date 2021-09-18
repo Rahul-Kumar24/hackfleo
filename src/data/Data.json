@@ -1,0 +1,28 @@
+[
+          {
+                    "name":"TATA STEEL",
+                    "totalsales":200,
+                    "targetsales":400
+          },
+          {
+                    "name":"Factory A",
+                    "totalsales":100,
+                    "targetsales":250
+          },
+          {
+                    "name":"Factory B",
+                    "totalsales":150,
+                    "targetsales":200
+          },
+          {
+                    "name":"Factory C",
+                    "totalsales":20,
+                    "targetsales":100
+          },
+          {
+                    "name":"Factory C",
+                    "totalsales":20,
+                    "targetsales":200
+          }
+
+]
