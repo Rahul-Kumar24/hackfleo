@@ -15,7 +15,7 @@ const Child = (props) =>{
                     <div>
                               {data.map((item)=>(
                                         <div className="display">
-                                        <div className="card1 shadow5">
+                                        <div className="card1 shadow5 zoom">
                                         <div className='hader'>
                                                   <h6>{item.name}</h6>
                                                   <h6>{(item.totalsales/item.targetsales)*100}%</h6>

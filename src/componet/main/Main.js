@@ -13,7 +13,7 @@ const Main = () => {
           
           return (
                     <div>                           
-                              <div className="card shadow2">
+                              <div className="card shadow2 zoom">
                                         <div className='hader'>
                                                   <h6>{data[0].name}</h6>
                                                   <h6>{(data[0].totalsales/data[0].targetsales)*100}%</h6>
