@@ -22,10 +22,13 @@ const Child = (props) =>{
                                         </div>
                                         <div className="haderbody">
                                                   <h6>Total Sales - {item.totalsales} Crore</h6>
-                                                  <button className='btn btn-primary' onClick={onClickHandler}>Off Track</button>
+                                                  <button className='btn btn-danger' onClick={onClickHandler}>Off Track</button>
                                         </div>
                                         <div className="footer">
                                                   <h6>Target Sales - {item.targetsales} Crore</h6>
+                                        </div>
+                                        <div>
+                                        <progress id="file" max="100" value={(item.totalsales/item.targetsales)*100}> {(item.totalsales/item.targetsales)*100} </progress>
                                         </div>
                                         </div>
                               </div>

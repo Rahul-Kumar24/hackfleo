@@ -25,6 +25,9 @@ const Main = () => {
                                         <div className="footer">
                                                   <h6>Target Sales - {data[0].targetsales} Crore</h6>
                                         </div>
+                                        <div>
+                                        <progress id="file" max="100" value={(data[0].totalsales/data[0].targetsales)*100}>{(data[0].totalsales/data[0].targetsales)*100} </progress>
+                                        </div>
                                         
                               </div>
                               <div>
